@@ -10,18 +10,21 @@
     padding: 20px;
     background-color: #ddd;
 
-    display: flex; /*box gulake row wise nia asbe,, easily korte parlam flex use kore*/
-
-    /* Flex Properties */
-    /* flex-direction: column; sob gula box column a nibe, default to row tei thake; */
-    /* flex-direction: column-reverse; */
-    /* flex-direction: row-reverse; */
-
+    display: flex;
     
-    /* flex-wrap: wrap; age html file a jaye wrap er jonne line uncommit koro,,ei line likhar age run kore dekho,, olpo jaygay sob box nive,, ei line likhle actual size asbe box er */
-    
-    /* flex-flow: row-reverse wrap; eksathe 2 ta kaj kore, age reverse korbe pore wrap korbe */
+    /* justify property horizontally kaj kore */
+   /* justify-content: start; sobgulai gaye gaye lage thakbe suru thake */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; soman space nia bose jabe */
+    /* justify-content: space-evenly; start and end eo soman space dibe */
+    /* justify-content: space-around; start and end a olpo and box er majhe same spacce */
 
+/* 
+    align item vartically kaj kore, so hight barate hobe green 180, blue 120 koro */
+
+    /* align-items: start; */
+    /* align-items: end; aro jante pdf flexbox */
 }
 .box{
     width: 150px;
@@ -35,8 +38,10 @@
 
 .green{
     background-color: green;
+    height: 180px;
 }
 
 .blue{
     background-color: blue;
+    height: 120px;
 }
