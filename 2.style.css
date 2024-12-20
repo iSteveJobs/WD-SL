@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+   /* font-family: "Ephesis", serif; */
+
+.container{
+    width: 600px;
+    margin: 20px auto;
+    background-color: gray;
+    padding: 20px;
+}
+.title{
+    font-family:"Ephesis", serif;
+    font-size: 36px;
+}
+.para{
+   font-family: arial;
+   font-size: 14px;
+   line-height: 1.5;
+
+}
+
+.btn{
+    padding: 5px 10px;
+    text-transform: uppercase;
+
+}
+
+.primary-btn{
+    background: blue;
+    color: white;
+}
+.secondary-btn{
+    background: yellow;
+    color: red;
+
+}
