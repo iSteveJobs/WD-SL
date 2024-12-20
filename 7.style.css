@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ddd;
+
+    display: flex;
+    gap: 5px;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: red;
+    /* order: 2; jekhanei thakuk tar order change hobe */
+    /* flex-grow: 1; baki sob jayga nia nibe */
+    /* flex-grow: 1; same time a green and  blue teo jaye likhte hobe, taile dekha jabe 3 ta box er size 3 rokom */
+}
+
+.green{
+    background-color: green;
+    /* order: 3;jekhanei thakuk tar order change hobe */
+    /* flex-grow: 2; */
+}
+
+.blue{
+    background-color: blue;
+    /* flex-grow: 3; */
+
+}
