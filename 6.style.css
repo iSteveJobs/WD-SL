@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ddd;
+
+    display: flex; /*box gulake row wise nia asbe,, easily korte parlam flex use kore*/
+    gap: 2rem;  /* box er por gap dibe*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
